@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboards>
+	<!--
+	id := a UUID (you may want to generate this using our simple Java program at:  /trunk/project/dict_creation (uuidgen_Windows.bat or uuidgen_Linux)
+	nameResId := the resource Id which holds the name of the keyboard. See strings.xml.
+	layoutResId := the resource Id which holds the layout definition of this keyboard. The sample is an English QWERTY keyboard.
+	defaultDictionaryLocale := a locate identifier for this keyboard. E.g., English will be en, Hebrew will be iw, etc.
+	description := some text you would like to add.
+	index := the sort index of this keyboard in the Settings page.
+	 -->
+	<Keyboard nameResId="@string/tibetan_keyboard" iconResId="@drawable/tibetan" layoutResId="@xml/tibetan_qwerty" id="b69c4f63-278d-4239-b13b-14a55f909a81" additionalIsLetterExceptions="'" description="Created with Dhongkha Font" index="1"/>
+</Keyboards>
